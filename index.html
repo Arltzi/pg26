@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <style>
+            header {
+                display: block;
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                box-sizing: border-box;
+            }
+
+            .title {
+                text-align: center;
+                border-block-end: 3px solid black;
+                background-color: antiquewhite;
+            }
+
+            .top-nav {
+                display: flex;
+                font-size: larger;
+                background-color: brown;
+                margin-left: 22ch;
+                justify-content: space-evenly;
+            }
+
+            .side-nav {
+                z-index: 2;
+                height: 100%;
+                width: 27ch;
+                position: fixed;
+                background-color: antiquewhite;
+            }
+
+            /* here lies the css to make different pages show without having more than 1
+            html file: setting display to none for all divs of a class, then reverting display
+            only for the target element. i highly doubt this is a good approach, but it popped
+            out to me while reading docs */
+            .page {
+                display: none;
+                text-align: center;
+                padding-left: 30ch;
+                background-color: dimgrey;
+            }
+
+            .page:target {
+                display: block;
+            }
+
+            table {
+                display: inline;
+            }
+
+            ol {
+                padding-left: 2ch;
+                padding-right: 2ch;
+            }
+
+            li {
+                list-style-type: none;
+                display: block;
+            }
+
+            .bio_card {
+                border: 1px;
+                border-style: solid;
+            }
+
+            /* some nonsense to adjust the indentation of list elements. they were indenting
+            deeper than i would have liked, and this seemed a decent workaround. alternatively
+            could have all desired li elements inherit a single li class with negative left margin,
+            but this lets me type less :), although adding this note just countered that */
+            li>ul,
+            li>ul>ul {
+                margin-left: -3ch;
+            }
+
+            .content-holder {
+                margin-top: 83px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div class="title">
+                <h1>
+                    PG26 Class Bio
+                </h1>
+            </div>
+        </header>
+
+        <div class="content-holder">
+            <nav class="side-nav">
+                <ol> <!---Root of list--->
+                    <li class="top">
+                        <a href="#lev-bio-id">Lev Zitron Biography</a>
+                    </li>
+
+                    <li class="top">
+                        <a href="#class-bio-id">Class Biography</a>
+                        <ul class="students">
+                            <li>
+                                Students
+                            </li>
+                            <ul>
+                                <li>
+                                    <a href="#max">Max Choi</a>
+                                </li>
+                                <li>
+                                    <a href="#alex">Alex Gulewich</a>
+                                </li>
+                                <li>
+                                    <a href="#alisa">Alisa Ho</a>
+                                </li>
+                                <li>
+                                    <a href="#xav">Xav Laugo</a>
+                                </li>
+                                <li>
+                                    <a href="#paige">Paige Morrison</a>
+                                </li>
+                                <li>
+                                    <a href="#preetham">Preetham Mukundan</a>
+                                </li>
+                                <li>
+                                    <a href="#spencer">Spencer Paynter-Repay</a>
+                                </li>
+                                <li>
+                                    <a href="#tee">Tee Rudy</a>
+                                </li>
+                                <li>
+                                    <a href="#robert">Robert Senatorov</a>
+                                </li>
+                                <li>
+                                    <a href="#levi">Levi Spevakow</a>
+                                </li>
+                                <li>
+                                    <a href="#henry">Henry Williams</a>
+                                </li>
+                                <li>
+                                    <a href="#lev">Lev Zitron</a>
+                                </li>
+                            </ul>
+                        </ul>
+                        <ul class="teachers">
+                            <li>
+                                Teachers
+                            </li>
+                            <ul>
+                                <li>
+                                    <a href="scott">Scott Henshaw</a>
+                                </li>
+                                <li>
+                                    <a href="rafael">Rafael Bonfim</a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+
+                    <li class="top">
+                        <a href="#seating-layout-id">Seating Layout</a>
+                    </li>
+                </ol>
+            </nav>
+
+            <nav class="top-nav">
+                <a href="#lev-bio-id">Lev Bio</a>
+                <a href="#class-bio-id">Class Bio</a>
+                <a href="#seating-layout-id">Seating Layout</a>
+            </nav>
+
+            <main>
+                <div class="page" id="class-bio-id">
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="bio-card">
+                                    <img src="/pics/max_pic.jpg" alt="Max Choi">
+                                    <div>Max Choi</div>
+                                    <div>C#</div>
+                                    <div>Has a cat</div>
+                                </div>
+                            </td>
+
+                            <td>
+                                <div class="bio-card">
+                                    <img src="/pics/alex_pic.jpg" alt="Alex Gulewich">
+                                    <div>Alex Gulewich</div>
+                                    <div>Java</div>
+                                    <div>Hasn't touched Java in years</div>
+                                </div>
+                            </td>
+
+                            <td>
+                                <div class="bio-card">
+                                    <img src="/pics/alisa_pic.jpg" alt="Alisa Ho">
+                                    <div>Aliso Ho</div>
+                                    <div>TypeScript</div>
+                                    <div>Skydiving is the best thing they've ever done</div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="bio-card">
+                                    <img src="/pics/xav_pic.jpg" alt="Xav Laugo">
+                                    <div>Xav Laugo</div>
+                                    <div>C#</div>
+                                    <div>Is left handed</div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="bio-card">
+                                    <img src="/pics/paige_pic.jpg" alt="Paige Morrison">
+                                    <div>Paige Morrison</div>
+                                    <div>C#</div>
+                                    <div>It's not really C#</div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="bio-card">
+                                    <img src="/pics/preetham_pic.jpg" alt="Preetham Mukundan">
+                                    <div>Preetham Mukundan</div>
+                                    <div>C++</div>
+                                    <div>Has a twin</div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="bio-card">
+                                    <img src="/pics/spencer_pic.jpg" alt="Spencer Paynter-Repay">
+                                    <div>Spencer Paynter-Repay</div>
+                                    <div>Julia</div>
+                                    <div>Favourite film is Speed Racer</div>
+                                </div>
+                            </td>
+
+                            <td>
+                                <div class="bio-card">
+                                    <img src="/pics/tee_pic.jpg" alt="Tee Rudy">
+                                    <div>Tee Rudy</div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </td>
+
+                            <td>
+                                <div class="bio-card">
+                                    <img src="/pics/roberts_pic.jpg" alt="Robert Senatorov">
+                                    <div>Robert Senatorov</div>
+                                    <div>C</div>
+                                    <div>Plays chess</div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="bio-card">
+                                    <img src="/pics/levi_pic.jpg" alt="Levi Spevakow">
+                                    <div>Levi Spevakow</div>
+                                    <div>C++</div>
+                                    <div>Snowboards</div>
+                                </div>
+                            </td>
+
+                            <td>
+                                <div class="bio-card">
+                                    <img src="/pics/henry_pic.jpg" alt="Henry Williams">
+                                    <div>Henry Williams</div>
+                                    <div>C++</div>
+                                    <div>Thinks game design is cool and loves fluid clean combat systems like BDO (Black
+                                        Desert Online)</div>
+                                </div>
+                            </td>
+
+                            <td>
+                                <div class="bio-card">
+                                    <img src="/pics/lev_pic.jpg" alt="Lev Zitron">
+                                    <div>Lev Zitron</div>
+                                    <div>GDScript</div>
+                                    <div>Always wears a sweater</div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="page" id="lev-bio-id">
+                    lev bio
+                </div>
+
+                <div class="page" id="seating-layout-id">
+                    seating layout
+                </div>
+            </main>
+
+            <footer>
+
+            </footer>
+        </div>
+    </body>
+
+</html>
