@@ -10,24 +10,17 @@
                 top: 0px;
                 left: 0px;
                 right: 0px;
-                box-sizing: border-box;
-            }
-
-            .title {
                 text-align: center;
                 border-block-end: 3px solid black;
                 background-color: antiquewhite;
             }
 
-            .top-nav {
-                display: flex;
-                font-size: larger;
-                background-color: brown;
-                margin-left: 22ch;
-                justify-content: space-evenly;
+            body {
+                background-image: image();
             }
 
             .side-nav {
+                margin-left: 10%;
                 z-index: 2;
                 height: 100%;
                 width: 27ch;
@@ -42,32 +35,37 @@
             docs */
             .page {
                 display: none;
-                text-align: center;
-                padding-left: 30ch;
+                padding: 10px;
                 background-color: dimgrey;
+                margin-left: calc(10% + 27ch);
+                margin-right: 10%;
             }
 
             .page:target {
-                display: block;
+                display: flex;
             }
 
-            table {
-                display: inline;
-            }
-
-            ol {
-                padding-left: 2ch;
-                padding-right: 2ch;
+            #class-bio-id:target {
+                display: flex;
             }
 
             li {
                 list-style-type: none;
-                display: block;
             }
 
-            .bio_card {
+            .bio-card {
                 border: 1px;
                 border-style: solid;
+                display: inline-block;
+                background-color: white;
+                text-align: center;
+                padding: 10px;
+                color: white;
+                max-width: 120px;
+            }
+
+            ul {
+                padding-left: 2ch;
             }
 
             /* some nonsense to adjust the indentation of list elements. they
@@ -75,26 +73,51 @@
             decent workaround. alternatively could have all desired li elements
             inherit a single li class with negative left margin, but this lets
             me type less :), although adding this note just countered that */
-            li>ul,
-            li>ul>ul {
-                margin-left: -3ch;
-            }
 
             .content-holder {
                 margin-top: 83px;
             }
 
-            #lev-bio-id {
-                font-size: large;
-                padding-top: 2ch;
-                border-style: ;
+            #lev-bio-id {}
+
+            #class-bio-id {
+                flex-wrap: wrap;
+            }
+
+            img {
+                border-style: solid;
+                border-color: brown;
+                border-width: 5px;
+                margin: 10px;
+            }
+
+            .name-text {
+                background-color: brown;
+            }
+
+            .language-text {
+                background-color: grey;
+            }
+
+            .fact-text {
+                background-color: black;
+            }
+
+            footer {
+                background-color: black;
+                outline: 2px;
+                z-index: 3;
+                position: fixed;
+                width: 80%;
+                bottom: 0px;
+                margin-left: 10%;
             }
         </style>
     </head>
 
     <body>
         <header>
-            <div class="title">
+            <div>
                 <h1>
                     PG26 Class Bio
                 </h1>
@@ -103,7 +126,7 @@
 
         <div class="content-holder">
             <nav class="side-nav">
-                <ol> <!---Root of list--->
+                <ul class="list-root"> <!---Root of list--->
                     <li class="top">
                         <a href="#lev-bio-id">Lev Zitron Biography</a>
                     </li>
@@ -167,142 +190,90 @@
                             </ul>
                         </ul>
                     </li>
-
-                    <li class="top">
-                        <a href="#seating-layout-id">Seating Layout</a>
-                    </li>
-                </ol>
-            </nav>
-
-            <nav class="top-nav">
-                <a href="#lev-bio-id">Lev Bio</a>
-                <a href="#class-bio-id">Class Bio</a>
-                <a href="#seating-layout-id">Seating Layout</a>
+                </ul>
             </nav>
 
             <main>
                 <div class="page" id="class-bio-id">
-                    <table>
-                        <tr>
-                            <td>
-                                <div class="bio-card">
-                                    <img src="pics/max_pic.jpg" alt="Max Choi">
-                                    <div>Max Choi</div>
-                                    <div>C#</div>
-                                    <div>Has a cat</div>
-                                </div>
-                            </td>
-
-                            <td>
-                                <div class="bio-card">
-                                    <img src="pics/alex_pic.jpg" alt="Alex Gulewich">
-                                    <div>Alex Gulewich</div>
-                                    <div>Java</div>
-                                    <div>Hasn't touched Java in years</div>
-                                </div>
-                            </td>
-
-                            <td>
-                                <div class="bio-card">
-                                    <img src="pics/alisa_pic.jpg" alt="Alisa Ho">
-                                    <div>Aliso Ho</div>
-                                    <div>TypeScript</div>
-                                    <div>Skydiving is the best thing they've ever done</div>
-                                </div>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <div class="bio-card">
-                                    <img src="pics/xav_pic.jpg" alt="Xav Laugo">
-                                    <div>Xav Laugo</div>
-                                    <div>C#</div>
-                                    <div>Is left handed</div>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="bio-card">
-                                    <img src="pics/paige_pic.jpg" alt="Paige Morrison">
-                                    <div>Paige Morrison</div>
-                                    <div>C#</div>
-                                    <div>It's not really C#</div>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="bio-card">
-                                    <img src="pics/preetham_pic.jpg" alt="Preetham Mukundan">
-                                    <div>Preetham Mukundan</div>
-                                    <div>C++</div>
-                                    <div>Has a twin</div>
-                                </div>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <div class="bio-card">
-                                    <img src="pics/spencer_pic.jpg" alt="Spencer Paynter-Repay">
-                                    <div>Spencer Paynter-Repay</div>
-                                    <div>Julia</div>
-                                    <div>Favourite film is Speed Racer</div>
-                                </div>
-                            </td>
-
-                            <td>
-                                <div class="bio-card">
-                                    <img src="pics/tee_pic.jpg" alt="Tee Rudy">
-                                    <div>Tee Rudy</div>
-                                    <div></div>
-                                    <div></div>
-                                </div>
-                            </td>
-
-                            <td>
-                                <div class="bio-card">
-                                    <img src="pics/roberts_pic.jpg" alt="Robert Senatorov">
-                                    <div>Robert Senatorov</div>
-                                    <div>C</div>
-                                    <div>Plays chess</div>
-                                </div>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <div class="bio-card">
-                                    <img src="pics/levi_pic.jpg" alt="Levi Spevakow">
-                                    <div>Levi Spevakow</div>
-                                    <div>C++</div>
-                                    <div>Snowboards</div>
-                                </div>
-                            </td>
-
-                            <td>
-                                <div class="bio-card">
-                                    <img src="pics/henry_pic.jpg" alt="Henry Williams">
-                                    <div>Henry Williams</div>
-                                    <div>C++</div>
-                                    <div>Thinks game design is cool and loves fluid clean combat systems like BDO (Black
-                                        Desert Online)</div>
-                                </div>
-                            </td>
-
-                            <td>
-                                <div class="bio-card">
-                                    <img src="pics/lev_pic.jpg" alt="Lev Zitron">
-                                    <div>Lev Zitron</div>
-                                    <div>GDScript</div>
-                                    <div>Always wears a sweater</div>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
+                    <div class="bio-card">
+                        <img src="pics/max_pic.jpg" alt="Max Choi">
+                        <div class="name-text">Max Choi</div>
+                        <div class="language-text">C#</div>
+                        <div class="fact-text">Has a cat</div>
+                    </div>
+                    <div class="bio-card">
+                        <img src="pics/alex_pic.jpg" alt="Alex Gulewich">
+                        <div class="name-text">Alex Gulewich</div>
+                        <div class="language-text">Java</div>
+                        <div class="fact-text">Hasn't touched Java in years</div>
+                    </div>
+                    <div class="bio-card">
+                        <img src="pics/alisa_pic.jpg" alt="Alisa Ho">
+                        <div class="name-text">Aliso Ho</div>
+                        <div class="language-text">TypeScript</div>
+                        <div class="fact-text">Skydiving is the best thing they've ever done</div>
+                    </div>
+                    <div class="bio-card">
+                        <img src="pics/xav_pic.jpg" alt="Xav Laugo">
+                        <div class="name-text">Xav Laugo</div>
+                        <div class="language-text">C#</div>
+                        <div class="fact-text">Is left handed</div>
+                    </div>
+                    <div class="bio-card">
+                        <img src="pics/paige_pic.jpg" alt="Paige Morrison">
+                        <div class="name-text">Paige Morrison</div>
+                        <div class="language-text">C#</div>
+                        <div class="fact-text">It's not really C#</div>
+                    </div>
+                    <div class="bio-card">
+                        <img src="pics/preetham_pic.jpg" alt="Preetham Mukundan">
+                        <div class="name-text">Preetham Mukundan</div>
+                        <div class="language-text">C++</div>
+                        <div class="fact-text">Has a twin</div>
+                    </div>
+                    <div class="bio-card">
+                        <img src="pics/spencer_pic.jpg" alt="Spencer Paynter-Repay">
+                        <div class="name-text">Spencer Paynter-Repay</div>
+                        <div class="language-text">Julia</div>
+                        <div class="fact-text">Favourite film is Speed Racer</div>
+                    </div>
+                    <div class="bio-card">
+                        <img src="pics/tee_pic.jpg" alt="Tee Rudy">
+                        <div class="name-text">Tee Rudy</div>
+                        <div class="language-text">Python</div>
+                        <div class="fact-text">Has a hampster</div>
+                    </div>
+                    <div class="bio-card">
+                        <img src="pics/roberts_pic.jpg" alt="Robert Senatorov">
+                        <div class="name-text">Robert Senatorov</div>
+                        <div class="language-text">C</div>
+                        <div class="fact-text">Plays chess</div>
+                    </div>
+                    <div class="bio-card">
+                        <img src="pics/levi_pic.jpg" alt="Levi Spevakow">
+                        <div class="name-text">Levi Spevakow</div>
+                        <div class="language-text">C++</div>
+                        <div class="fact-text">Snowboards</div>
+                    </div>
+                    <div class="bio-card">
+                        <img src="pics/henry_pic.jpg" alt="Henry Williams">
+                        <div class="name-text">Henry Williams</div>
+                        <div class="language-text">C++</div>
+                        <div class="fact-text">Thinks game design is cool and loves fluid clean combat systems like BDO
+                            (Black
+                            Desert Online)</div>
+                    </div>
+                    <div class="bio-card">
+                        <img src="pics/lev_pic.jpg" alt="Lev Zitron">
+                        <div class="name-text">Lev Zitron</div>
+                        <div class="language-text">GDScript</div>
+                        <div class="fact-text">Always wears a sweater</div>
+                    </div>
                 </div>
 
                 <div class="page" id="lev-bio-id">
                     <!--INLINE CSS HERE-->
-                    <div style="width:50%;max-width: 60ch;">
+                    <div>
                         Hello! My name is Arieh-Lev Zitron, Lev for short, I'm a
                         20 year old canadian game development student, currently
                         studying at the Vancouver Film School (VFS). I enjoy
@@ -320,14 +291,10 @@
                         the highest quality art.
                     </div>
                 </div>
-
-                <div class="page" id="seating-layout-id">
-                    seating layout
-                </div>
             </main>
 
             <footer>
-
+                content
             </footer>
         </div>
     </body>
