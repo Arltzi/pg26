@@ -1,6 +1,6 @@
 ###**PG26 T1 Intro To HTML Class Bio Web Page**
 ----------
-< webpage that functions as a small biography of myself along with minor info about all classmates and teachers>
+webpage that functions as a small biography of myself along with minor info about classmates and teachers
 
 ####**Download/Install**
 ---------
@@ -10,7 +10,6 @@
 
 ####**How to use**
 --------
-IMPORTANT:
 
 TL:DR; click a link on the side to show the contents of the web page, the default page is blank, im very sad about it
 
