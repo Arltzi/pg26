@@ -1,0 +1,8 @@
+﻿  source.cpp
+C:\Users\pg26lev\source\repos\pg26_t1_c1\source.cpp(23,9): warning C4101: 'get_used_to_this_naming_convention': unreferenced local variable
+C:\Users\pg26lev\source\repos\pg26_t1_c1\source.cpp(24,8): warning C4101: 'shorter_integer': unreferenced local variable
+C:\Users\pg26lev\source\repos\pg26_t1_c1\source.cpp(48,16): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+C:\Users\pg26lev\source\repos\pg26_t1_c1\source.cpp(53,11): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+C:\Users\pg26lev\source\repos\pg26_t1_c1\source.cpp(58,11): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+C:\Users\pg26lev\source\repos\pg26_t1_c1\source.cpp(63,12): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  pg26_t1_c1.vcxproj -> C:\Users\pg26lev\source\repos\pg26_t1_c1\x64\Debug\pg26_t1_c1.exe

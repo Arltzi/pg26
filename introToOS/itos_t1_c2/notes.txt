@@ -1,0 +1,32 @@
+- every os performs the same basic functions
+	- managing system resources (provide layer between developers and hardware)
+	- providing an environment for user applications (allows for applications to do 
+		calculations while OS gets data from storage)
+	- manages access and interrupts from external devices
+	- provides access to local storage (off-line storage, when you turn power off the data stays, 
+		and on-line storage aka ram, which loses data with power loss)
+
+	- boots computer
+	- manages basic io
+	- provides a ui for end users
+	- manages resources cpu gpu ram
+	- fail as gracefully as possible from errors
+
+system resources
+	- processor - which application to run, when, how long
+	- memory - whos using what, how
+	- devices - what are we listening for
+	- storage - read&write
+	- applications - what does each need, how to run multiple things at once
+	- ui - how user interacts with os
+
+types of os
+	- simple batch system (load data, do process, write data)
+	- multiprogramming batch system (jobs, pulls multiple programs to memory, 
+		programs take turns pulling and processing)
+	- multiprocessor systems (e.g. cars, many little microprocessors each running one software)
+	- desktop system (what we use today, handles memory)
+	- distributed operating system (client/server, p2p)
+	- clustered system (cloud)
+	- realtime os
+	- handheld system

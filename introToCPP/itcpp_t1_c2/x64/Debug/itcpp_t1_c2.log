@@ -1,0 +1,8 @@
+﻿  Person.cpp
+  itcpp_t1_c2.cpp
+C:\Users\pg26lev\pg26\introToCPP\itcpp_t1_c2\itcpp_t1_c2.cpp(7,1): warning C4005: 'PRINT_LINE': macro redefinition
+  C:\Users\pg26lev\pg26\introToCPP\itcpp_t1_c2\Utility.h(8,1):
+  see previous definition of 'PRINT_LINE'
+  
+  Generating Code...
+  itcpp_t1_c2.vcxproj -> C:\Users\pg26lev\pg26\introToCPP\itcpp_t1_c2\x64\Debug\itcpp_t1_c2.exe

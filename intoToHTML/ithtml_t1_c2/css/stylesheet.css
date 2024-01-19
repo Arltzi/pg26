@@ -1,0 +1,44 @@
+/*Copyright (C), 2024 Lev Zitron, all rights reserved*/
+
+html {
+    background-color:darkslategray;
+    color:antiquewhite;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    min-height: 100vh;
+    font-size: large;
+    display: inline-block;
+}
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+.debug {
+    border: 1px dashed red;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: inline-block;
+}
+.green-box{
+    background-color: green;
+    height: 5em;
+    width: 5em;
+    margin: 0 auto;
+}
+
+ul{
+    font-size: medium;
+    display: inline-block;
+}
+li{
+    display: inline-block;
+    list-style:square;
+    margin:1em;
+    text-align:left;
+}

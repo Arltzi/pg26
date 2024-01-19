@@ -1,0 +1,15 @@
+C:\Users\pg26lev\PG26\Intro To C#\ic#_t1_c1_a3\bin\Debug\net5.0\ic#_t1_c1_a3.exe
+C:\Users\pg26lev\PG26\Intro To C#\ic#_t1_c1_a3\bin\Debug\net5.0\ic#_t1_c1_a3.deps.json
+C:\Users\pg26lev\PG26\Intro To C#\ic#_t1_c1_a3\bin\Debug\net5.0\ic#_t1_c1_a3.runtimeconfig.json
+C:\Users\pg26lev\PG26\Intro To C#\ic#_t1_c1_a3\bin\Debug\net5.0\ic#_t1_c1_a3.runtimeconfig.dev.json
+C:\Users\pg26lev\PG26\Intro To C#\ic#_t1_c1_a3\bin\Debug\net5.0\ic#_t1_c1_a3.dll
+C:\Users\pg26lev\PG26\Intro To C#\ic#_t1_c1_a3\bin\Debug\net5.0\ic#_t1_c1_a3.pdb
+C:\Users\pg26lev\PG26\Intro To C#\ic#_t1_c1_a3\obj\Debug\net5.0\ic#_t1_c1_a3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pg26lev\PG26\Intro To C#\ic#_t1_c1_a3\obj\Debug\net5.0\ic#_t1_c1_a3.AssemblyInfoInputs.cache
+C:\Users\pg26lev\PG26\Intro To C#\ic#_t1_c1_a3\obj\Debug\net5.0\ic#_t1_c1_a3.AssemblyInfo.cs
+C:\Users\pg26lev\PG26\Intro To C#\ic#_t1_c1_a3\obj\Debug\net5.0\ic#_t1_c1_a3.csproj.CoreCompileInputs.cache
+C:\Users\pg26lev\PG26\Intro To C#\ic#_t1_c1_a3\obj\Debug\net5.0\ic#_t1_c1_a3.dll
+C:\Users\pg26lev\PG26\Intro To C#\ic#_t1_c1_a3\obj\Debug\net5.0\refint\ic#_t1_c1_a3.dll
+C:\Users\pg26lev\PG26\Intro To C#\ic#_t1_c1_a3\obj\Debug\net5.0\ic#_t1_c1_a3.pdb
+C:\Users\pg26lev\PG26\Intro To C#\ic#_t1_c1_a3\obj\Debug\net5.0\ic#_t1_c1_a3.genruntimeconfig.cache
+C:\Users\pg26lev\PG26\Intro To C#\ic#_t1_c1_a3\obj\Debug\net5.0\ref\ic#_t1_c1_a3.dll
