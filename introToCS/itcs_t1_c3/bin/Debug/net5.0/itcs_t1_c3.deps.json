@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "itcs_t1_c3/1.0.0": {
+        "runtime": {
+          "itcs_t1_c3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "itcs_t1_c3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
