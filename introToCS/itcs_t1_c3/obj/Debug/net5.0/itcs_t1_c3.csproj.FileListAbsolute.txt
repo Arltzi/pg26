@@ -1,0 +1,16 @@
+C:\Users\pg26lev\pg26\introToCS\itcs_t1_c3\bin\Debug\net5.0\itcs_t1_c3.exe
+C:\Users\pg26lev\pg26\introToCS\itcs_t1_c3\bin\Debug\net5.0\itcs_t1_c3.deps.json
+C:\Users\pg26lev\pg26\introToCS\itcs_t1_c3\bin\Debug\net5.0\itcs_t1_c3.runtimeconfig.json
+C:\Users\pg26lev\pg26\introToCS\itcs_t1_c3\bin\Debug\net5.0\itcs_t1_c3.runtimeconfig.dev.json
+C:\Users\pg26lev\pg26\introToCS\itcs_t1_c3\bin\Debug\net5.0\itcs_t1_c3.dll
+C:\Users\pg26lev\pg26\introToCS\itcs_t1_c3\bin\Debug\net5.0\itcs_t1_c3.pdb
+C:\Users\pg26lev\pg26\introToCS\itcs_t1_c3\obj\Debug\net5.0\itcs_t1_c3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pg26lev\pg26\introToCS\itcs_t1_c3\obj\Debug\net5.0\itcs_t1_c3.AssemblyInfoInputs.cache
+C:\Users\pg26lev\pg26\introToCS\itcs_t1_c3\obj\Debug\net5.0\itcs_t1_c3.AssemblyInfo.cs
+C:\Users\pg26lev\pg26\introToCS\itcs_t1_c3\obj\Debug\net5.0\itcs_t1_c3.csproj.CoreCompileInputs.cache
+C:\Users\pg26lev\pg26\introToCS\itcs_t1_c3\obj\Debug\net5.0\itcs_t1_c3.sourcelink.json
+C:\Users\pg26lev\pg26\introToCS\itcs_t1_c3\obj\Debug\net5.0\itcs_t1_c3.dll
+C:\Users\pg26lev\pg26\introToCS\itcs_t1_c3\obj\Debug\net5.0\refint\itcs_t1_c3.dll
+C:\Users\pg26lev\pg26\introToCS\itcs_t1_c3\obj\Debug\net5.0\itcs_t1_c3.pdb
+C:\Users\pg26lev\pg26\introToCS\itcs_t1_c3\obj\Debug\net5.0\itcs_t1_c3.genruntimeconfig.cache
+C:\Users\pg26lev\pg26\introToCS\itcs_t1_c3\obj\Debug\net5.0\ref\itcs_t1_c3.dll
