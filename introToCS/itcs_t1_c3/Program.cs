@@ -6,6 +6,7 @@ namespace itcs_t1_c3
     {
         static void Main(string[] args)
         {
+            /*
             // ask user for number of students, n
             Console.WriteLine("How many students would you like to register? Please enter a positive integer.");
             string[] aStudents = new string[int.Parse(Console.ReadLine())];
@@ -35,7 +36,19 @@ namespace itcs_t1_c3
             {
                 Console.WriteLine(aReverseStudents[i]);
             }
-
+            */
+            Console.WriteLine("depth of number triangle");
+            int depth = int.Parse(Console.ReadLine());
+            int total = 1;
+            for (int i = 0; i < depth; i++)
+            {
+                for (int j = 0; j < i; j++)
+                {
+                    Console.Write("{0} ", total);
+                    total++;
+                }
+                Console.Write("\n");
+            }
         }
     }
 }

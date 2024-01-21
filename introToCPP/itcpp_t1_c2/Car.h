@@ -25,11 +25,18 @@ public:
 	void HornPressed();								// make a noise
 	void HornReleased();							// stop making a noise
 	
-private:
+	// ACCESSORS
+	// my own added get functions for some bools
+	bool IsRunning();
+	bool IsHonking();
 
+	float GetSpeed();
+	int GetGear();
+
+private:
 	bool mRunning;					// is the engine running?
 	int mGear;						// what gear is the car in?, 0 gear is neutral, -1 is reverse	
-	int mMaxGear;
 	float mSpeed;					// speed of the car
+	int mMaxGear;					// my own added max gear int. for the NSX its 6
 	bool mNoise;						// is the car making noise?
 };
