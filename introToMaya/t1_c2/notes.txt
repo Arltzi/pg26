@@ -1,0 +1,8 @@
+new file: template asmpbrmetalrough, select low poly mesh, 2048
+
+hit f3 to change to UV spce, f2 goes to 3d view, f1 does both, f4 reverses between
+right click hold moves light around
+f8 goes to baking module: change output size to 2048, click icon under high poly preferences, pick doughnut_HIGH, 
+change dynamic frontal distance until no red, hit bake selected textures, hit return to paint mode
+paint mode: hitting b cycles through maps
+add mask with colour selection

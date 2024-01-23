@@ -1,0 +1,11 @@
+set auto build pipeline to run so that people dont stay late
+automation should genuinely help the team, also help their health
+complexity in languages is inversely proportional to program size
+
+programming methodology
+- identify problem
+- propose solution
+- evaluate/test
+- iterate
+- build
+- test
