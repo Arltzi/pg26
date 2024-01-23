@@ -9,3 +9,39 @@ programming methodology
 - iterate
 - build
 - test
+
+SSS (Scott Style Sheet)
+
+- no space between function name and parenthesis
+- 
+
+environment variables:
+	starting shell creates variables, tell applications in shell where to find things
+	PATH: search path to find commands
+permission go: user-group-other
+directories need execute permission to open
+sum.o is object file: compiled version of program, without symbols resolved
+
+file.c -> c compilter -> file.o -> assembler -> (assembly code -> linker && libraries -> linker) -> file.exe
+
+os can chain collection of commands together
+< -> standard input
+> -> standard output
+| -> redirects output from command line to input of another
+
+char* pointer to
+char& address
+*char contents of char
+char** points to list of characters that is string
+
+use gcc to compile c code
+% gcc -o sum2 sum.c
+
+any dos/cmd command can be entered into the text file
+any executable can be run
+
+assignment:
+download two moodle files
+copy demo app & olaf to /builds in h: drive
+write script that find number of vertices in olaf &
+outputs a text log file of the results in builds (hint: redirect standard output)
