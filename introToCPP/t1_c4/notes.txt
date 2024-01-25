@@ -1,0 +1,15 @@
+&<var> = memory address
+*<pointer> = value
+<type>& -> alias
+<type>* -> pointer
+
+- stack instantiations are destroyed at the end of scope
+
+- Constructor() = delete;
+	- strongly advised, dont let anyone instantiate a class without giving it values
+
+	- paramaterize constructor by adding in the header file
+
+- ostream operator<< is private, make override friend to access
+
+- if the default constructor isnt deleted, its automatically created anyway

@@ -1,0 +1,5 @@
+﻿  Character.cpp
+C:\Users\pg26lev\pg26\introToCPP\t1_c4\Character.cpp(19,39): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  t1_c4.cpp
+  Generating Code...
+  t1_c4.vcxproj -> C:\Users\pg26lev\pg26\introToCPP\t1_c4\x64\Debug\t1_c4.exe

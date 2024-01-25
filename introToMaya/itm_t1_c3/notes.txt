@@ -1,0 +1,11 @@
+5 maps
+- base color
+- normal
+- roughness
+- metal
+- ao
+
+- opacity
+- emissive
+
+bc* = dxt*, 1, 5, 7

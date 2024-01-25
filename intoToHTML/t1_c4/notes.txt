@@ -1,0 +1,88 @@
+splash screen 
+auto place ships
+ship position cant be embedded in html to prevent inspection cheating
+
+when browser loads it creates a data structure
+	- if data changes, redraw screen
+
+html structure
+	- ids are added as doc is created
+	- class names added to "elements"
+
+browser manages app view through the "DOM"
+	1. load html
+	2. build dom
+	3. load js
+	4. construct js?
+	5. js manipulates & updates dom
+
+	6. js handles input from browser
+	7. js updates dom
+	8. browser updates because dom is changed
+
+this is example of MVC model view controller architecture
+control piece is firstly data storage
+
+es5 (aka old way) sees dom as more like a class, with get functions
+es6 (aka correct way) queries the dom, uses parameters that actually match html e.g. class parameter is ".myClass", returns list
+typically modify style of element through js by adding or removing class
+
+let el = document.querySelector("#my-button") returns first element of id my-button
+let elList = document.querySelectorAll(".my-class") returns a list of all elements of my-class
+
+Why not to use functions!!
+when you declare a variable, use let (scoped to the curly brackets)
+functions are first order variables (functions can be passed as parameters, returned by other functions, returned by self, assigned to a variable, chained left to right)
+js treats all variables as references
+
+oop process is list actors, list their behaviours
+functional process is abstract actions, pass data to them
+	want pure functions
+		- doesn't modify data that comes in as parameters
+		- does not modify anything outside the function
+
+hoisting:
+	you don't have to define a function before using it, can define after using
+	all first order entities are hoisted
+	always declare variables at beginning of scope to avoid bugs
+
+anonymous declaration closure is basically a class
+
+7 types of functions
+
+5. generator functions
+6. new functions
+	returns new function obj
+	"changes the actual language"
+7. 
+
+load functional js files before index.js
+
+OOP stuff:
+	all objects implicitly inherit from a base object
+	new keyword allocates memory to contain object
+js first orders (object, function, strings, numbers, booleans, null, undefined)
+
+js class properties are defined in constructor, use this.
+js has good garbage collection
+
+surround "private" members with underscores to make them more annoying to access and learn about haha
+
+js module system:
+	- lifted from python
+	- import file as module
+	- dynamically loads
+	- all defined variables are exposed only to the module
+	- export keyword exposes stuff to the file importing the module
+	- import {ClassName} from "relativePath.js"
+	- have to tell browser that index.js uses modules, change type="module" instead of type="text/javascript"
+
+wrap entire app in a class!!!
+
+run()
+	while
+		update()
+		render()
+
+const game = new App();
+game.run();
