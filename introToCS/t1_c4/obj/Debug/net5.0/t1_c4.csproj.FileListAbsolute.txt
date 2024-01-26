@@ -1,0 +1,16 @@
+C:\Users\pg26lev\pg26\introToCS\t1_c4\obj\Debug\net5.0\t1_c4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pg26lev\pg26\introToCS\t1_c4\obj\Debug\net5.0\t1_c4.AssemblyInfoInputs.cache
+C:\Users\pg26lev\pg26\introToCS\t1_c4\obj\Debug\net5.0\t1_c4.AssemblyInfo.cs
+C:\Users\pg26lev\pg26\introToCS\t1_c4\obj\Debug\net5.0\t1_c4.csproj.CoreCompileInputs.cache
+C:\Users\pg26lev\pg26\introToCS\t1_c4\obj\Debug\net5.0\t1_c4.sourcelink.json
+C:\Users\pg26lev\pg26\introToCS\t1_c4\bin\Debug\net5.0\t1_c4.exe
+C:\Users\pg26lev\pg26\introToCS\t1_c4\bin\Debug\net5.0\t1_c4.deps.json
+C:\Users\pg26lev\pg26\introToCS\t1_c4\bin\Debug\net5.0\t1_c4.runtimeconfig.json
+C:\Users\pg26lev\pg26\introToCS\t1_c4\bin\Debug\net5.0\t1_c4.runtimeconfig.dev.json
+C:\Users\pg26lev\pg26\introToCS\t1_c4\bin\Debug\net5.0\t1_c4.dll
+C:\Users\pg26lev\pg26\introToCS\t1_c4\bin\Debug\net5.0\t1_c4.pdb
+C:\Users\pg26lev\pg26\introToCS\t1_c4\obj\Debug\net5.0\t1_c4.dll
+C:\Users\pg26lev\pg26\introToCS\t1_c4\obj\Debug\net5.0\refint\t1_c4.dll
+C:\Users\pg26lev\pg26\introToCS\t1_c4\obj\Debug\net5.0\t1_c4.pdb
+C:\Users\pg26lev\pg26\introToCS\t1_c4\obj\Debug\net5.0\t1_c4.genruntimeconfig.cache
+C:\Users\pg26lev\pg26\introToCS\t1_c4\obj\Debug\net5.0\ref\t1_c4.dll
