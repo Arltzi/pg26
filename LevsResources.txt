@@ -1,0 +1,91 @@
+Art:
+	Pixel Art:
+	AdamCYounis - https://www.youtube.com/@AdamCYounis
+	Brandon James Greer - https://www.youtube.com/@BJGpixel
+	Pixel Overload - https://www.youtube.com/@PixelOverloadChannel/videos
+	SamPop - https://www.youtube.com/@SampoPesonen/videos (and low-poly modelling)
+
+	Animation: 
+	New Frame PLus - https://www.youtube.com/@NewFramePlus/videos
+
+	Shaders:
+	Makin Stuff Look Good - https://www.youtube.com/@DanMoranGameDev
+	t3ssel8r - https://www.youtube.com/@t3ssel8r
+	Voyage - https://www.youtube.com/@Voyageonyt
+	The Art Of Code - https://www.youtube.com/@TheArtofCodeIsCool/videos (imo, the best youtube resource for learning shaders, from a low to high level)
+
+	VFX:
+	Real-Time VFX - https://realtimevfx.com/
+	onetupthree - https://www.youtube.com/@onetupthree	
+
+	Modelling:
+	Royal Skies - https://www.youtube.com/@TheRoyalSkies/videos
+
+Portfolios:
+	VFX:
+	size liu - https://www.youtube.com/@shizeliu7880
+	https://www.youtube.com/@baurmustafin8724
+	3D Modelling:
+	Wackyblocks - https://www.youtube.com/@Wackyblocks3D
+
+Comp sci for games:
+	DigiDigger - https://www.youtube.com/@DigiDigger/videos
+	Freay Holmer - https://www.youtube.com/@acegikmo 
+	Primer - https://www.youtube.com/@PrimerBlobs (adjacent to games, but very very useful to know in the back of your head)
+	The Cherno - https://www.youtube.com/@TheCherno
+
+Dev Logs:
+	CodeParade - https://www.youtube.com/@CodeParade/videos
+	Matthew Palaje - https://www.youtube.com/@MatthewPalaje/videos
+	Pirate Software - https://www.youtube.com/@PirateSoftware/videos
+	ThinMatrix - https://www.youtube.com/@ThinMatrix
+
+Rendering:
+	Acerola - https://www.youtube.com/@Acerola_t
+
+Design:
+	Analysis:
+	Adam Millard (Architect of games) - https://www.youtube.com/@ArchitectofGames
+	Design Delve - https://www.youtube.com/@DesignDelve/videos
+	Extra Credits - https://www.youtube.com/@extracredits
+	Game Makers Toolkit - https://www.youtube.com/@GMTK
+	Mental Checkpoint - https://www.youtube.com/@MentalCheckpoint
+
+	Specific Tutorials:
+	DapperDino - https://www.youtube.com/@DapperDinoCodingTutorials/videos
+
+	General Tutorials:
+	Artindi - https://www.youtube.com/@Artindi/videos
+	IndividualKex - https://www.youtube.com/@IndividualKex
+	Infallible Code - https://www.youtube.com/@InfallibleCode/videos
+	Sebastian Lague - https://www.youtube.com/@SebastianLague (the most interesting game coding account)
+
+	Engine-Specific tutorials; 
+	GDQuest - https://www.youtube.com/@Gdquest
+	Godotneers - https://www.youtube.com/@godotneers
+	Pefeper - https://www.youtube.com/@Pefeper/videos
+
+	Procedural Generation:
+	Rujik - https://www.youtube.com/@RujiKtheComatose/videos
+
+Other:
+	Gaming history:
+	Ahoy - https://www.youtube.com/@XboxAhoy/videos
+	LowSpecGamer - https://www.youtube.com/c/lowspecgamer
+
+	Game Development News:
+	GamesFromScratch - https://www.youtube.com/@gamefromscratchjura (this guys nuts... non stop coverage)
+
+	Comp sci:
+	Suckerpinch aka tom7 - https://www.youtube.com/@tom7
+	Two Minute Papers - https://www.youtube.com/@TwoMinutePapers
+
+Maths:
+	3Blue1Brown - https://www.youtube.com/@3blue1brown
+	Primer - https://www.youtube.com/@PrimerBlobs
+
+Sound & Music:
+	GST Channel - https://www.youtube.com/@GSTChannelVEVO/videos
+
+Writing:
+	LocalScriptMan - https://www.youtube.com/@localscriptman
