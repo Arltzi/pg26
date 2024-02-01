@@ -1,0 +1,9 @@
+﻿  Alien.cpp
+  c5.cpp
+C:\Users\pg26lev\pg26\introToCPP\c5\c5.cpp(9,54): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\pg26lev\pg26\introToCPP\c5\c5.cpp(10,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\pg26lev\pg26\introToCPP\c5\c5.cpp(11,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  LivingOrganism.cpp
+  Predator.cpp
+  Generating Code...
+  c5.vcxproj -> C:\Users\pg26lev\pg26\introToCPP\c5\x64\Debug\c5.exe
