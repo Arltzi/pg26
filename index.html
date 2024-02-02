@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--Copyright (C), 2024 Lev Zitron, All rights reserved-->
+
+<html>
+
+    <head>
+        <title>Lev's Classic Battleships</title>
+        <link rel="stylesheet" type="text/css" href="./stylesheet.css">
+        <script type="module" src="./scripts/index.js"></script>
+
+    </head>
+
+    <body>
+        <main>
+            <header>
+                Lev's Battleships
+            </header>
+            <div style="display:flex">
+                <side>
+                    Rules:
+                    1.
+                </side>
+                <!-- in here are the 5 changable pages, start, setup, change, gameplay, endgame -->
+                <div class="start-screen main-panel" id="start-screen">
+                    <div class="ui-button" id="start-game-button">
+                        Start the game!
+                    </div>
+                </div>
+                <div class="setup-screen main-panel hide" id="setup-screen">
+                    <div id="large-panel">
+                        <div class="info-holder setup-title">
+                            Board Size Dropdown
+                        </div>
+                        <div class="info-holder">
+                            <div class="setup-title">
+                                Ship Style
+                            </div>
+                            <div class="button-holder">
+                                <div class="ui-button" id="change1">
+                                    Classic style
+                                </div>
+                                <div class="ui-button" id="change2">
+                                    Russian Style
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-holder">
+                            <div class="setup-title">
+                                Ship Placement
+                            </div>
+                            <div class="button-holder">
+                                <div class="ui-button" id="change3">
+                                    Randomly placed ships
+                                </div>
+                                <div class="ui-button" id="change4">
+                                    Place the ships yourself
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="change-screen main-panel hide" id="change-screen">
+                    <div class="ui-button" id="to-gameplay">
+                        Press to start player n's turn
+                    </div>
+                </div>
+                <div class="gameplay-screen main-panel hide" id="gameplay-screen">
+                    <div id="play-board-div">
+                        <table id="play-board">
+                            <!-- generated grid html goes in here and in the view board -->
+
+                        </table>
+                    </div>
+                    <div id="right-panel">
+                        <div class="flavour-text">
+                            Your board
+                        </div>
+                        <div id="view-board-div">
+                            <table id="view-board">
+                                <!-- generated grid html goes here too, its a small view of your own board -->
+                            </table>
+                        </div>
+                        <div id="fire-button">
+                            FIRE
+                        </div>
+                    </div>
+                </div>
+                <div class="endgame-screen main-panel hide" id="endgame-screen">
+                    <div class="ui-button" id="restart">
+                        Player n won! Press to play again!
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div>
+                Copyright (C), 2024 Lev Zitron, All rights reserved
+            </div>
+        </footer>
+    </body>
+
+
+</html>

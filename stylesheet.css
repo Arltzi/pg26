@@ -1,0 +1,164 @@
+/* Copyright 2024 Lev Zitron all rights reserved */
+
+
+header{
+    border: 2px solid black;
+    width: 99vw;
+    background-color: grey;
+    margin-bottom: 5px;
+    color: antiquewhite;
+    font-size: xx-large;
+    text-align:center;
+}
+
+side{
+    height: 88vh;
+    width: 10vw;
+    display:block;
+
+    border: 0px solid black;
+    background-color: grey;
+}
+
+.main-panel{
+    height: 88vh;
+    width: 90vw;
+    display:inline-flex;
+    margin-left:0.5vw;
+}
+
+.start-screen{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(23, 23, 23);
+}
+
+.setup-screen{
+    background-color: rgb(23, 23, 23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-holder{
+    flex-direction: row;
+    border:2px solid antiquewhite;
+    background-color: darkgrey;
+    justify-content:center;
+    padding: 0.5vh;
+    border-top-width: 1px;
+    text-align: center;
+}
+
+.setup-title{
+    margin-top:0.8vh
+}
+
+.button-holder{
+    display: flex;
+}
+
+.ui-button{
+    background-color: antiquewhite;
+    border:4px solid rgb(116, 110, 102);
+    border-top-color:rgb(255, 252, 248);
+    border-right:rgb(255, 252, 248);
+    padding:4ch;
+    margin:2ch;
+    font-size:large;
+    max-width: 10ch;
+    text-align:center;
+}
+
+.change-screen{
+    background-color: rgb(23, 23, 23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameplay-screen{
+    background-color:lightgray;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#play-board{
+    display:flex;
+    background-color: aquamarine;
+    border:1px solid black;
+}
+
+#right-panel{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: darkslategray;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.flavour-text{
+    color:antiquewhite;
+    font-size: larger;
+}
+
+#view-board{
+    text-align:center;
+    margin:5ch 1ch;
+    background-color: aquamarine;
+}
+
+#fire-button{
+    background-color: brown;
+    color:antiquewhite;
+    font-size: larger;
+    text-align:center;
+    justify-content: center;
+    padding: 4vh 4vw;
+}
+
+
+
+.grid-position-title{
+    text-align: center;
+}
+
+.cell{
+    width: 3vw;
+    height: 3vw;
+    border:1px solid black;
+}
+
+#view-board > tbody > tr > .cell{
+    width: 1vw;
+    height: 1vw;
+}
+
+.endgame-screen{
+    background-color: rgb(23, 23, 23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    border: 2px solid black;
+    width: 80vw;
+    width: 100vw;
+    margin-top:0.5vh;
+    background-color: grey;
+    display:inline-block;
+    text-align:center;
+}
+
+.editing{
+    background:palevioletred;
+}
+
+.hide{
+    display:none;
+}
