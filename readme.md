@@ -11,4 +11,4 @@ Layout.pdf can be found both on Moodle and Github, its just in the root folder o
 
 ####**Download/Install**
 ---------
- - https://github.com/vfs-sct/a2-battleshipsboxmodel-Arltzi/tree/main
+ - https://github.com/vfs-sct/a2-battleshipsboxmodel-Arltzi/tree/html
