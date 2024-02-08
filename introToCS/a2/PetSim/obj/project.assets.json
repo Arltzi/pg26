@@ -8,24 +8,30 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\billy\\.nuget\\packages\\": {}
+    "C:\\Users\\pg26lev\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\billy\\pg26\\introToCS\\a2\\PetSim\\PetSim.csproj",
+      "projectUniqueName": "C:\\Users\\pg26lev\\pg26\\introToCS\\a2\\PetSim\\PetSim.csproj",
       "projectName": "PetSim",
-      "projectPath": "C:\\Users\\billy\\pg26\\introToCS\\a2\\PetSim\\PetSim.csproj",
-      "packagesPath": "C:\\Users\\billy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\billy\\pg26\\introToCS\\a2\\PetSim\\obj\\",
+      "projectPath": "C:\\Users\\pg26lev\\pg26\\introToCS\\a2\\PetSim\\PetSim.csproj",
+      "packagesPath": "C:\\Users\\pg26lev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pg26lev\\pg26\\introToCS\\a2\\PetSim\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\billy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\pg26lev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
